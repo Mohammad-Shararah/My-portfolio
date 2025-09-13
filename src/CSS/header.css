@@ -1,0 +1,53 @@
+
+.header {
+  position: fixed;
+
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background: #fff;
+
+  box-shadow: 0px 5px 30px -1px #0b2545;
+
+  padding: 2%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #0b2545ec;
+  color: #eef4ed;
+  font-size: 50px;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.logo {
+  margin-left: 1.5%;
+  color: #eef4ed;
+  font-size: 2vw;
+  font-family: "Kode Mono", monospace;
+}
+
+.nav-list {
+  margin-right: 8%;
+  padding: 5px;
+  font-size: 1.2vw;
+  display: flex;
+  list-style: none;
+}
+
+.nav-list li {
+  color: #eef4ed;
+  margin-right: 30px;
+}
+
+.nav-list > li > a {
+  text-decoration: none;
+  color: #eef4ed;
+}
+
+.nav-list a:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: #6cb6f2;
+  border-bottom: solid 1px #6cb6f2;
+}

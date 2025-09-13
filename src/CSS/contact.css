@@ -1,0 +1,153 @@
+
+.contact-section {
+  margin-top: 100px;
+  padding: 30px 40px 55px 30px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+  background-color: #0b2545;
+  box-shadow: 0px -2px 24px 0px #0b2545;
+  color: #eef4ed;
+}
+
+.links-list-container {
+  padding-top: 30px;
+}
+
+.links-list {
+  list-style: none;
+}
+
+.links-list > li {
+  margin-top: 7px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.links-list > li > a {
+  text-decoration: none;
+  width: 110px;
+  height: 35px;
+  color: #eef4ed;
+  border: solid 1px #eef4ed;
+  display: flex;
+  gap: 5px;
+  padding: 10px;
+  align-items: center;
+  border-radius: 10px;
+  font-size: 1.1vw;
+}
+
+.links-list > li > a:hover {
+  cursor: pointer;
+  border: solid 1px #6cb6f2;
+  color: #6cb6f2;
+}
+
+.links-list > li:nth-child(4) {
+  margin-left: 5px;
+}
+
+.links-list > li:nth-child(1) {
+  font-family: "Kode Mono", monospace;
+  margin: 0px 0px 35px 5px;
+  font-size: 1.2vw;
+}
+
+.contact-list {
+  font-size: 1.2vw;
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-list > a {
+  text-decoration: none;
+  color: #eef4ed;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  border-radius: 10px;
+  font-size: 1.1vw;
+}
+
+.contact-form {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+
+.form-sender-info {
+  display: flex;
+  gap: 5px;
+}
+
+.contact-form > input {
+  width: 100%;
+}
+
+.contact-form > textarea {
+  width: 100%;
+  height: 60%;
+}
+
+.form-header {
+  font-size: 1.2vw;
+  color: #eef4ed;
+  font-family: "Kode Mono", monospace;
+}
+
+.form-username::placeholder,
+.form-email::placeholder,
+.form-subject::placeholder,
+textarea::placeholder {
+  color: #00000067;
+  font-size: 1.1vw;
+}
+
+.form-username,
+.form-email,
+.form-subject,
+textarea {
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  font-size: 1.1vw;
+  color: #0b2545;
+  transition: background-color 0.2s ease;
+}
+
+.form-username:focus,
+.form-email:focus,
+.form-subject:focus,
+textarea:focus {
+  transition: 0.2;
+  background-color: #ededed;
+  outline: none;
+}
+
+.contact-form > button {
+  background-color: #6cb6f2;
+  color: #0b2545;
+  border-radius: 3px;
+  padding: 5px;
+  border: none;
+  font-size: 1.1vw;
+  width: 100%;
+}
+
+.contact-form > button:hover {
+  cursor: pointer;
+  transition: 0.2s;
+  background-color: #e4ebf1;
+  color: #0b2545;
+  border-radius: 3px;
+  padding: 5px;
+  border: none;
+  font-size: 1.1vw;
+  width: 100%;
+}

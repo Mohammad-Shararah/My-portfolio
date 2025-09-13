@@ -1,0 +1,72 @@
+
+
+.home-section {
+  height: 100vh;
+  padding: 8%;
+  padding-top: 15%;
+  display: flex;
+  background-color: #0b2545;
+  color: #eef4ed;
+  font-size: 50px;
+  flex-wrap: wrap;
+  box-shadow: 0px 5px 30px -1px #0b2545;
+}
+
+.intro-section {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.intro-paragraph {
+  max-width: 600px;
+  line-height: 28px;
+  font-size: 1.6vw;
+}
+
+.intro {
+  font-size: 3.2vw;
+}
+
+.intro-name {
+  text-shadow: 0 8px 10px rgba(0, 0, 0, 0.211);
+
+  color: #6cb6f2;
+  font-family: "Kode Mono", monospace;
+}
+
+.intro-position {
+  text-shadow: 0 15px 20px rgba(0, 0, 0, 0.25);
+  color: #6cb6f2;
+  font-family: "Kode Mono", monospace;
+}
+
+.profile-view-container {
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-image-container {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 48px -4px rgba(0, 0, 0, 0.75) inset;
+  overflow: hidden;
+  box-shadow: 0 12px 28px #00000032;
+  border: solid 2px #6cb6f2;
+}
+
+.profile-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.code-icon {
+  object-fit: covers;
+  width: 80px;
+  margin-top: -17%;
+  margin-left: 5%;
+}
+
