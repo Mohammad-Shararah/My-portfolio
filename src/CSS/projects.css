@@ -291,4 +291,25 @@
   .slick-list::after {
     width: 40px;
   }
+  
+  /* Show only one card per view on mobile */
+  .slick-slide {
+    opacity: 0.3;
+    transition: opacity 0.3s ease;
+  }
+  
+  .slick-slide.slick-active {
+    opacity: 1;
+  }
+  
+  .slick-track {
+    display: flex;
+    align-items: center;
+  }
+  
+  .slick-slide > div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
 }
