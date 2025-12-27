@@ -16,13 +16,10 @@
   font-family: "Open Sans", sans-serif;
 }
 
-<<<<<<< HEAD
-=======
 html {
   scroll-behavior: smooth;
 }
 
->>>>>>> 8062d6f885ffd2cabf73c53e9bdad2388390d620
 #root {
   scroll-behavior: smooth;
   background-color: #eef4ed;
