@@ -70,3 +70,50 @@
   margin-left: 5%;
 }
 
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  .home-section {
+    padding: 100px 20px 20px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .intro-section {
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .intro-paragraph {
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 100%;
+  }
+  
+  .intro {
+    font-size: 28px;
+  }
+  
+  .intro-name,
+  .intro-position {
+    font-size: 24px;
+  }
+  
+  .profile-view-container {
+    margin-left: 0;
+    margin-top: 30px;
+    align-items: center;
+  }
+  
+  .profile-image-container {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .code-icon {
+    width: 50px;
+    margin-top: -20px;
+    margin-left: 0;
+  }
+}
+

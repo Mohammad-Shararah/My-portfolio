@@ -151,3 +151,77 @@ textarea:focus {
   font-size: 1.1vw;
   width: 100%;
 }
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  .contact-section {
+    margin-top: 80px;
+    padding: 30px 20px;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  .links-list-container {
+    padding-top: 20px;
+    width: 100%;
+  }
+  
+  .links-list > li:nth-child(1) {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .links-list > li > a {
+    font-size: 14px;
+    width: auto;
+    padding: 8px 12px;
+  }
+  
+  .contact-list {
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  .contact-list > a {
+    font-size: 14px;
+  }
+  
+  .contact-form {
+    width: 100%;
+    padding-top: 20px;
+  }
+  
+  .form-header {
+    font-size: 18px;
+  }
+  
+  .form-sender-info {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .form-username,
+  .form-email,
+  .form-subject,
+  textarea {
+    font-size: 14px;
+    padding: 12px;
+  }
+  
+  .form-username::placeholder,
+  .form-email::placeholder,
+  .form-subject::placeholder,
+  textarea::placeholder {
+    font-size: 14px;
+  }
+  
+  .contact-form > button {
+    font-size: 14px;
+    padding: 12px;
+  }
+  
+  .contact-form > button:hover {
+    font-size: 14px;
+    padding: 12px;
+  }
+}

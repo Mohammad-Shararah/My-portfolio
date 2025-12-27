@@ -182,3 +182,71 @@
   margin-top: 10px;
   font-size: 1.4vw;
 }
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  .projects-section {
+    margin-top: 100px;
+    padding: 0 20px;
+  }
+  
+  .projects-header {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  
+  .projects-container {
+    padding: 20px;
+  }
+  
+  .project-card {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    min-height: 450px;
+    margin: 0 auto;
+  }
+  
+  .project-image {
+    width: 100%;
+    max-width: 300px;
+    height: 180px;
+  }
+  
+  .project-title {
+    font-size: 20px;
+  }
+  
+  .project-description {
+    font-size: 14px;
+    max-width: 280px;
+  }
+  
+  .project-technologies {
+    width: 100%;
+    max-width: 250px;
+    flex-wrap: wrap;
+  }
+  
+  .tech-icon {
+    width: 25px;
+  }
+  
+  .github-link {
+    font-size: 14px;
+  }
+  
+  .date {
+    font-size: 12px;
+  }
+  
+  .slick-slider .slick-arrow {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .slick-slider .slick-prev::after,
+  .slick-slider .slick-next::after {
+    font-size: 16px;
+  }
+}

@@ -25,3 +25,14 @@ html {
   background-color: #eef4ed;
   letter-spacing: 1px;
 }
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  * {
+    font-size: 16px;
+  }
+  
+  #root {
+    letter-spacing: 0.5px;
+  }
+}

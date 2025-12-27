@@ -81,6 +81,57 @@
   font-weight: normal;
 }
 
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  .skills-section {
+    margin-top: 80px;
+    padding: 0 20px;
+  }
+  
+  .skills-header {
+    font-size: 28px;
+  }
+  
+  .skills-icons {
+    margin-top: 40px;
+    margin-bottom: -60px;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .skills-icon {
+    width: 40px;
+  }
+  
+  .skills-container {
+    margin-top: 60px;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0;
+  }
+  
+  .skills-list-container {
+    width: 90%;
+    max-width: 300px;
+    padding: 25px;
+  }
+  
+  .skills-list-header {
+    font-size: 20px;
+  }
+  
+  .skills-list {
+    margin-top: 20px;
+  }
+  
+  .skills-list > li {
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 15px;
+    max-width: 100%;
+  }
+}
+
 
 
 
