@@ -1,0 +1,86 @@
+
+
+.skills-section {
+  text-align: center;
+  margin-top: 125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.skills-header {
+  color: #0b2545;
+  font-size: 3.4vw;
+}
+
+.skills-icons {
+  padding: 10px;
+  margin-top: 80px;
+  margin-bottom: -130px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.skills-icon {
+  width: 55px;
+  object-fit: cover;
+}
+
+.skills-container {
+  text-align: center;
+  padding: 20px;
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.skills-list-container {
+  border-radius: 15px;
+  width: 32%;
+  padding: 35px;
+  box-shadow: 0 6px 18px rgba(11, 37, 69, 0.267);
+}
+
+.skills-list-container:hover {
+  box-shadow: 0 6px 18px rgba(11, 37, 69, 0.572);
+  transition: 0.3s;
+}
+
+.skills-list-header {
+  color: #0b2545;
+  font-size: 2.3vw;
+}
+
+.skills-list {
+  text-align: left;
+  list-style: none;
+  margin-top: 35px;
+  margin-left: 10px;
+}
+
+.skills-list > li {
+  padding: 5px;
+  line-height: 25px;
+  margin-top: 25px;
+  max-width: 320px;
+  border-top: solid 1px #0b2545;
+}
+
+.skills-list > li::marker {
+  content: "❏  ";
+  color: #0b2545;
+  font-weight: bold;
+}
+
+.skill-highlight {
+  letter-spacing: 1.5px;
+  color: #0b2545;
+  font-weight: normal;
+}
+
+
+
+
